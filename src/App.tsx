@@ -3,6 +3,7 @@ import Home from "./pages/home.page";
 import History from "./pages/history.page";
 import Leaderboard from "./pages/leaderboard.page";
 import NavigationBar from "./components/layout/navigation";
+import Members from "./pages/members.page";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/history" element={<History />} />
                 <Route path="/leaderboard" element={<Leaderboard />} />
+                <Route path="/members" element={<Members />} />
             </Routes>
         </BrowserRouter>
     );

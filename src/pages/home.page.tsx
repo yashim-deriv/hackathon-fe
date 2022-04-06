@@ -1,5 +1,11 @@
+import MainContainer from "../components/container/main-container";
+
 const Home = () => {
-    return <h1>Hello World</h1>;
+    return (
+        <MainContainer>
+            <p className='text-2xl'>Home</p>
+        </MainContainer>
+    );
 };
 
 export default Home;

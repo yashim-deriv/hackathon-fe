@@ -1,5 +1,11 @@
+import MainContainer from "../components/container/main-container";
+
 const History = () => {
-    return <h1>History</h1>;
+    return (
+        <MainContainer>
+            <p className='text-2xl'>History</p>
+        </MainContainer>
+    );
 };
 
 export default History;

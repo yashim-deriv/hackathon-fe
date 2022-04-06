@@ -3,7 +3,7 @@ import MainContainer from "../components/container/main-container";
 const Leaderboard = () => {
     return (
         <MainContainer>
-            <h1>Leaderboard</h1>
+            <p className='text-2xl'>Leaderboard</p>
         </MainContainer>
     );
 };
